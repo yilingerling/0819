@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+ul,
+li,
+dl,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+#warp-header {
+  width: 100%;
+  height: 80px;
+  background-color: #000;
+}
+#warp-header::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 7px;
+  background-color: #cbcbcb;
+}
+#warp-header > header {
+  width: 1200px;
+  height: 73px;
+  margin: 0 auto;
+}
+#warp-header > header #logo {
+  float: left;
+  height: 63px;
+  margin: 0.5% 0;
+}
+#warp-header > header > nav {
+  float: right;
+  height: 73px;
+}
+#warp-header > header > nav > .list01 > li {
+  float: left;
+  width: 110px;
+  height: 73px;
+  line-height: 73px;
+  text-align: center;
+  cursor: pointer;
+  transition: height 0.5s;
+}
+#warp-header > header > nav > .list01 > li:hover {
+  height: 80px;
+}
+#warp-header > header > nav > .list01 > li:nth-of-type(1):hover {
+  background-color: red;
+}
+#warp-header > header > nav > .list01 > li:nth-of-type(2):hover {
+  background-color: green;
+}
+#warp-header > header > nav > .list01 > li:nth-of-type(3):hover {
+  background-color: blue;
+}
+#warp-header > header > nav > .list01 > li:nth-of-type(4):hover {
+  background-color: orange;
+}
+#warp-header > header > nav > .list01 > li:nth-of-type(5):hover {
+  background-color: yellow;
+}
+#warp-header > header > nav > .list01 > li:nth-of-type(6):hover {
+  background-color: darkviolet;
+}
+#warp-header > header > nav > .list01 > li > a {
+  font-size: 20px;
+}
+#warp-content {
+  width: 100%;
+  height: 538px;
+  background-color: #eaeaea;
+}
+#warp-content::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 7px;
+  background-color: #cbcbcb;
+}
+#warp-content section {
+  position: relative;
+  width: 1200px;
+  height: 538px;
+  margin: 0 auto;
+}
+#warp-content section .container {
+  position: relative;
+  width: 1200px;
+  height: 538px;
+}
+#warp-content section .container > div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+}
+#warp-content section .container .left img,
+#warp-content section .container .right img {
+  width: 600px;
+  height: 300px;
+}
+#warp-content section .container .content img {
+  width: 800px;
+  height: 400px;
+}
+#warp-content section .container .left {
+  left: 25%;
+}
+#warp-content section .container .content {
+  z-index: 1;
+}
+#warp-content section .container .right {
+  left: auto;
+  right: -25%;
+}
+#warp-main {
+  width: 100%;
+  height: 573px;
+}
+#warp-main::after {
+  margin-top: 93px;
+  content: '';
+  display: block;
+  width: 100%;
+  height: 7px;
+  background-color: #cbcbcb;
+}
+#warp-main main {
+  width: 1200px;
+  height: 473px;
+  margin: 0 auto;
+}
+#warp-main main .left {
+  width: 450px;
+  height: 473px;
+  float: left;
+}
+#warp-main main .left > h2 {
+  float: left;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 14%;
+}
+#warp-main main .left > h2 > span {
+  font-size: 32px;
+  color: #808080;
+}
+#warp-main main .left > .list01 {
+  clear: both;
+}
+#warp-main main .left > .list01 > li {
+  width: 450px;
+  margin-bottom: 20px;
+}
+#warp-main main .left > .list01 > li .data {
+  float: left;
+  margin-right: 5%;
+}
+#warp-main main .right {
+  width: 720px;
+  font-size: 16px;
+  float: right;
+}
+#warp-main main .right > img {
+  width: 700px;
+}
+#warp-main main .right > h2 {
+  margin-top: 9%;
+  margin-bottom: 25px;
+  font-size: 32px;
+  font-weight: bold;
+}
+#warp-main main .right > h2 > span {
+  font-size: 32px;
+  color: #808080;
+}
+#warp-main main .right > p {
+  margin-bottom: 1%;
+}
+#warp-footer {
+  width: 100%;
+  height: 71px;
+  background-color: #000;
+}
+#warp-footer footer {
+  width: 1200px;
+  height: 63px;
+  margin: 0 auto;
+}
+#warp-footer footer > p {
+  display: block;
+  width: 50%;
+  height: 63px;
+  line-height: 63px;
+  float: left;
+  color: white;
+}
+#warp-footer footer > ul {
+  width: 131px;
+  height: 63px;
+  float: right;
+}
+#warp-footer footer > ul li {
+  float: left;
+  line-height: 48px;
+  padding-top: 15px;
+  margin-right: 10px;
+  opacity: 0.8;
+}
+#warp-footer footer > ul li:hover {
+  opacity: 1;
+}
+/*# sourceMappingURL=index.css.map */
